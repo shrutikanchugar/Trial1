@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+  }
+  body{
+      margin: none;
+  }
+  /* Create four equal columns that floats next to each other */
+.column1, .column2, .column3,.column6, .column7, .column9 {
+    float: left;
+    width: 25%;
+    height: 40%;
+    border: black solid 1px;
+  }
+  .column4, .column5{
+      float: left;
+      height: 40%;
+      border: black solid 1px;
+  }
+  .column8{
+    float: left;
+      height: 40%;
+      border-left: black solid 1px;
+      border-top: black solid 1px;
+      border-bottom: black solid 1px;
+  }
+  .right8{
+    border-left: none;
+  }
+  .left4, .right5, .right8{
+      width: 75%;
+  }
+  .right4, .left5, .left8{
+      width: 25%;
+  }
+
+  .right1, .right3, .right6{
+      width: 50%;
+  }
+
+  /* Clear floats */
+.row1:after, .row2:after, .row3:after, .row4:after, .row5:after, .row6:after, .row7:after, .row8:after, .row9:after {
+    content: "";
+    display: table;
+     clear: both;
+  }
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column1, .column2, .column3, .column6, .column7, .column9 {
+      width: 50%;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .left4, .right5, .right8 {
+      width: 75%;
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    .right4, .left5, .left8 {
+      width: 25%;
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    .right1, .right3, .right6 {
+      width: 100%;
+    }
+  }
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column1, .column2, .column3, .column6, .column7, .column9 {
+      width: 50%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .left4, .right5, .right8 {
+      width: 75%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .right4, .left5, .left8 {
+      width: 25%;
+    }
+  }
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .right1, .right3, .right6 {
+      width: 100%;
+    }
+  }
+
+  @font-face {
+    font-family: 'Heading Pro Double Trial';
+    src: url('/FONTS/Heading-Pro/Heading-Pro-Double-Heavy-trial.ttf') format('truetype');
+  }
+
+  .c1{
+    background-color: #ffd933;
+    color: black;
+    font-family: 'Heading Pro Double Trial';
+    padding: 5%;
+    line-height: 0.8;
+    font-size: 40px;
+  }
+  
+  .c3{
+    background-color: #ffd933;
+    color: black;
+    font-family: 'Heading Pro Double Trial';
+    line-height: 0.8;  
+    padding: 5%;
+  }
+  .f3{
+    -webkit-text-fill-color: #ffd933; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+
+  .c3 h2{
+    margin: 0;
+    font-size: 40px;
+    line-height: 0.9;
+  }
+  .f4, .f6{
+    -webkit-text-fill-color: black; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+  }
+
+  .c4{
+    background-color: black ;
+    color: #ffd933;
+    font-family: 'Heading Pro Double Trial';  
+    padding-top: 5%;
+  }
+
+  .c6{
+    background-color: black ;
+    color: #ffd933;
+    font-family: 'Heading Pro Double Trial';  
+    padding: 5%;
+  }
+
+.c9{
+  background-color: #343536;
+  color: #ffd933;
+  font-family: 'Heading Pro Double Trial'; 
+  padding: 5%;
+}
+
+.c9 h2{
+  margin: 0;
+  font-size: 40px;
+  line-height: 0.9;
+}
+
+.f9{
+  -webkit-text-fill-color: #343536; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+.column9 p{
+  margin: 5%; 
+  line-height: 2; 
+  font-family: 'Nunito', sans-serif;
+}
+
+#icon9{
+  color: black;
+  border: 1px solid yellow;
+  padding: 0.09em 0.3em;
+  font-size: 1.3em;
+  text-decoration: none;
+}
+
+.circle{
+	border-radius: 50%;
+	margin: 0.15em;
+	font-size: 4em;
+	}
+
+  #a9{
+    font-family: 'Heading Pro Double Trial';
+    color: black;
+    margin-left: 5%;
+   
+  }
+  #a9:hover{
+    color: white;
+  }
+  .line {
+    height: 6px;
+    background-color: black;
+    width: 40px;
+    margin-left: 5%;
+}
+
+.p8{
+  font-size: x-large;
+  margin:8%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.p4{
+  font-size:medium;
+  margin:3%;
+  font-family: 'Nunito', sans-serif;
+  line-height: 2;
+}
+
+#brand{
+  font-family: 'Heading Pro Double Trial';
+  color: white;
+  font-size: large;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.first{
+  color: white;
+  line-height: 1.5;
+  padding-left: 5px;
+}
