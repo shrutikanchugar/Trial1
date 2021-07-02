@@ -137,8 +137,13 @@
     background-color: black ;
     color: #ffd933;
     font-family: 'Heading Pro Double Trial';  
-    padding-top: 5%;
+    
     overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
   }
 
   .c6{
@@ -154,6 +159,11 @@
   color: #ffd933;
   font-family: 'Heading Pro Double Trial'; 
   padding: 5%;
+
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
 }
 
 .c9 h2{
@@ -218,9 +228,14 @@
 
 .p4{
   font-size:medium;
-  margin:3%;
+  padding:3%;
   font-family: 'Nunito', sans-serif;
   line-height: 2;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
 }
 
 #brand{
@@ -240,4 +255,8 @@
 .right3{
   font-size: large;
   padding: 5%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
 }
