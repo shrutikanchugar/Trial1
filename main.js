@@ -34,5 +34,9 @@
 
   function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
-    
+
+  }
+
+  function blog(){
+      window.location = "https://tiltbrands.in/blog/";
   }

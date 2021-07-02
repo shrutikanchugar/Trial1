@@ -5,11 +5,26 @@
       margin: none;
       
   }
+  @media (orientation: landscape) {
+    h2 {
+      font-size: 20px;
+    }
+    h1 {
+      font-size: 20px;
+    }
+  }
   /* Create four equal columns that floats next to each other */
-.column1, .column2, .column3,.column6, .column7, .column9 {
+.column1, .column2, .column3,.column6,.column9 {
     float: left;
     width: 25%;
     height: 40%;
+    border: black solid 1px;
+    overflow: hidden;
+  }
+  .column7{
+    float: left;
+    width: 25%;
+    height: 50%;
     border: black solid 1px;
     overflow: hidden;
   }
@@ -438,14 +453,20 @@
   clear: both;
   display: table;
 }
-  
-  .column10 {
-  float: left;
-  width: 22%;
-  padding: 5px;
-  height: auto;
-  overflow: hidden;
+.row10:after {
+  content: "";
+  display:inline-table;
+  clear: both;
 }
+  
+    .column10 {
+      float: left;
+      width: 25%;
+      padding: 10px;
+      height: 40%; 
+      
+    }
+
 
 
 .column1 span{
@@ -511,18 +532,6 @@
   background-color: #424345;
 }
 
-.centered{
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: black;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-    
-
-}
-
 #overlay {
   position: fixed;
   display: inline-block;
@@ -542,6 +551,15 @@
  
 }
 
+.column1 p{
+  padding: 10%;
+  overflow: hidden;
+}
+.column1 a{
+  
+  font-size: 20px;
+  color: black;
+}
 .slant {
   cursor: pointer;
   height: 20px;
@@ -554,4 +572,43 @@
   transition: background-color 0.6s ease;
   transform: rotate(30deg);
   
+}
+.bg1 {
+  /* The image used */
+  background-image: url("blog.png");
+
+  /* Full height */
+  height: 40%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg2 {
+  /* The image used */
+  background-image: url("our.png");
+
+  /* Full height */
+  height: 40%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.bg3 {
+  /* The image used */
+  background-image: url("EDITOR\ \(Longer\ version\).jpg");
+
+  /* Full height */
+  height: 40%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
