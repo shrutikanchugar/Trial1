@@ -3,6 +3,7 @@
   }
   body{
       margin: none;
+      
   }
   /* Create four equal columns that floats next to each other */
 .column1, .column2, .column3,.column6, .column7, .column9 {
@@ -10,6 +11,7 @@
     width: 25%;
     height: 40%;
     border: black solid 1px;
+    overflow: hidden;
   }
   .column4, .column5{
       float: left;
@@ -48,6 +50,9 @@
 @media screen and (max-width: 900px) {
     .column1, .column2, .column3, .column6, .column7, .column9 {
       width: 50%;
+    }
+    .left4, .right5, .right8 {
+      width: 75%;
     }
   }
   @media screen and (max-width: 900px) {
@@ -133,6 +138,7 @@
     color: #ffd933;
     font-family: 'Heading Pro Double Trial';  
     padding-top: 5%;
+    overflow: hidden;
   }
 
   .c6{
@@ -140,6 +146,7 @@
     color: #ffd933;
     font-family: 'Heading Pro Double Trial';  
     padding: 5%;
+    overflow: hidden;
   }
 
 .c9{
