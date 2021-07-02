@@ -31,6 +31,17 @@
     </head>
 
     <body>
+
+        <!--navigation-->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#offerings">OUR OFFERINGS</a>
+            <a href="#approach">OUR APPROACH</a>
+            <a href="#work">OUR WORK</a>
+            <a href="#leadsership">OUR LEADERSHIP</a>
+            <a href="#connect">CONNECT WITH US</a>
+          </div>
+
 <!--first section-->
 <div class="row1">
     <div class="column1" style="background-color: white;color: black;">
@@ -39,7 +50,7 @@
     <div class="column1 c1 d-flex justify-content-around">A<br>WHOLE<br>NEW<br>ANGLE</div>
     <div class="column1 right1" style="text-align: right;">
         <span>OUR WORK</span><span>/</span><span>CONTANT</span>
-        <span>
+        <span onclick="openNav()">
             
 <div class="slant"></div>
 <div class="slant"></div>
@@ -63,7 +74,7 @@
 <!--end of second section-->
 
 <!--third section-->
-<div class="row3">
+<div class="row3" id="offerings">
     <div class="column3 c3" style="font-size:10vw;">
         <h2 class="f3">OUR</h2>
         <h2>OFFERINGS</h2>
@@ -83,7 +94,7 @@
 <!--end of third section-->
 
 <!--fourth section-->
-<div class="row4">
+<div class="row4" id="approach">
     <div class="column4 left4" style="background-color: black; color: white;">
     <p class="p4">We believe that while understanding society and culture is critical, not looking at actual<br>behavioural data too, hugely compromises strategising. Which is why at Tilt, we have Data<br>analysts, Digital strategists and Media specialists working in tandem with Brand<br>Strategists, Communication Planners and Consumer Behaviourists – also why we have<br>heavily invested in data and tools; arguably more than any other creative enterprise in this<br>market. We conceptually disagree with the relevance of “bull’s eye” audiences today. We<br>believe brands have many cohorts to talk to and have many stories to tell<a href="#" style="text-decoration: none; color: #ffd933;"> read more…</a></p>
 </div>
@@ -95,7 +106,7 @@
 <!--end of fourth section-->
 
 <!--fifth section - swipe-->
-<div class="row5">
+<div class="row5" id="work">
     <div class="column5 left5" style="background-color: white; color: black;">OUR<br>CLIENTS</div>
     <div class="column5 right5  slideshow-container" style="background-color: white; color: black;">
     <!--images-->
@@ -256,7 +267,7 @@
 <!--end of sixth section-->
 
 <!--seventh section-->
-<div class="row7">
+<div class="row7" id="leadsership">
     <div class="column7" style="background-color: black;color: white;">
     <img class="img-responsive" src="joseph.png" style="object-fit:contain">
     </div>
@@ -284,7 +295,7 @@
 <!--end of eighth section-->
 
 <!--footer section-->
-<div class="row9">
+<div class="row9" id="connect">
     <div class="column9 c9">
     <h2>CONNECT</h2>
     <h2>WITH</h2>
