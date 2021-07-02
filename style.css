@@ -487,3 +487,10 @@
   font-size: 36px;
   margin-left: 50px;
 }
+
+.top1 a{
+  color: black;
+}
+.top1 a:hover{
+  color: #ffd933;
+}
