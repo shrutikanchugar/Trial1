@@ -447,17 +447,6 @@
   overflow: hidden;
 }
 
-.slant {
-  cursor: pointer;
-  height: 20px;
-  width: 5px;
-  margin: 0 0px;
-  background-color: #424345;
-  border-radius: 25%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-  transform: rotate(30deg);
-}
 
 .column1 span{
   padding-top: 50px;
@@ -501,7 +490,70 @@
 
 .top1 a{
   color: black;
+  display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
 }
 .top1 a:hover{
   color: #ffd933;
+}
+.bg {
+ 
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-color: #424345;
+}
+
+.centered{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+    
+
+}
+
+#overlay {
+  position: fixed;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0);
+  cursor: pointer;
+}
+
+#text{
+  position: absolute;
+  top: 10%;
+  left: 90%;
+  font-size: 50px;
+  color: black;
+ 
+}
+
+.slant {
+  cursor: pointer;
+  height: 20px;
+  width: 5px;
+  margin: 0 0px;
+  background-color: #424345;
+  border-radius: 25%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  transform: rotate(30deg);
+  
 }

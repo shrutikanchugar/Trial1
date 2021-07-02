@@ -31,6 +31,14 @@
     </head>
 
     <body>
+        <div id="overlay" onclick="off()">
+            <div id="text" onclick="openNav()">
+                <div class="slant"></div>
+                <div class="slant"></div>
+                <div class="slant"></div>
+                <div class="slant"></div>   
+            </div>
+          </div>
 
         <!--navigation-->
         <div id="mySidenav" class="sidenav">
@@ -48,17 +56,24 @@
     <img class="img-responsive" src="Logo.png" style="width: 180px;">
     </div>
     <div class="column1 c1 d-flex justify-content-around">A<br>WHOLE<br>NEW<br>ANGLE</div>
-    <div class="column1 right1" style="text-align: right; font-style: italic; padding: 10px;">
-        <span class="top1"><a href="#work" style="text-decoration: none;">OUR WORK</a></span>
+    <div class="column1 right1" style="font-style: italic;">
+        <p>
+            <a href="#work" style="text-decoration: none;">OUR WORK&nbsp;</a>
+            <span style="color: #ffd933;">/</span>
+            <a href="#connect" style="text-decoration: none;">CONTACT</a>
+        </p>
+
+
+    <!--    <span class="top1"><a href="#work" style="text-decoration: none;">OUR WORK</a></span>
         <span style="color: #ffd933;">/</span>
-        <span class="top1"><a href="#connect" style="text-decoration: none;">CONTACT</a></span>
-        <span onclick="openNav()" style="padding: 10px;">
+        <span class="top1"><a href="#connect" style="text-decoration: none;">CONTACT</a></span>-->
+      <!-- <span onclick="openNav()" style="padding: 10px;">
             
 <div class="slant"></div>
 <div class="slant"></div>
 <div class="slant"></div>
 <div class="slant"></div>
-        </span>
+        </span> --> 
     </div>
     
   </div>
@@ -68,7 +83,7 @@
 
 <div class="row2">
     <div class="column2" style="background-color: white;"></div>
-    <div class="column2" style="background-color: black; color: white;">
+    <div class="column2" style="background-color: black; color: white; display: block;">
     <img src="blog.png">
     </div>
     <div class="column2" style="background-color: black; color: white;">
@@ -92,7 +107,7 @@
        <span style="color: #ffd933;margin-left: 5%;">/</span><span class="first">Brand Identity</span><br>
        <span style="color: #ffd933;margin-left: 5%;">/</span><span class="first">Brand Building</span><br>
        <span style="color: #ffd933;margin-left: 5%;">/</span><span class="first">Digital Transformation DigiT</span><br><br>
-       <a href="" style="color: #ffd933;margin-left: 5%; text-decoration: none;">Know More</a>
+       <a href="https://tiltbrands.in/our-approach/" style="color: #ffd933;margin-left: 5%; text-decoration: none;">Know More</a>
     </div>
     <div class="column3 right3" style="background-color: white; color: black;">Our Brand Consulting practice covers every critical aspect of building and crafting brands - From Purpose to Proposition to Portfolio. Our proprietary BrandGenome framework captures every aspect of the brand that can and should drive business and communication. Through DigiT, this practice also helps and guides brands embarking on their digital transformation journey.</div>
 </div>
@@ -112,9 +127,9 @@
 <!--end of fourth section-->
 
 <!--fifth section - swipe-->
-<div class="row5" id="work">
+<div class="row5" id="work" style="overflow: hidden;">
     <div class="column5 left5" style="background-color: white; color: black;">
-    <img src="our.png">
+    <img src="our.png" style="overflow: hidden;">
     </div>
     <div class="column5 right5  slideshow-container" style="background-color: white; color: black;">
     <!--images-->
@@ -252,7 +267,7 @@
         
        
     
-    <div style="text-align:center">
+    <div style="text-align:center; position: fixed;">
       <span class="dot" onclick="currentSlide(1)"></span> 
       <span class="dot" onclick="currentSlide(2)"></span> 
       <span class="dot" onclick="currentSlide(3)"></span> 
@@ -274,6 +289,8 @@
 </div>
 <!--end of sixth section-->
 
+
+
 <!--seventh section-->
 <div class="row7" id="leadsership">
     <div class="column7" style="background-color: black;color: white;">
@@ -290,11 +307,15 @@
     </div>
 </div>
 <!--end of seventh section-->
+<div class="container-fluid" style="position: relative; overflow: hidden;">
+    <img src="joseph.png" class="bg" style=" background-position: left;">
+    <div class="centered" style="color: white;">Centered</div>
+</div>
 
 <!--eighth section-->
 <div class="row8">
-    <div class="column8 left8" style="background-color: white; color: yellow;">
-    <img class="img-responsive" src="Logo.png" style="width: 50%;">
+    <div class="column8 left8" style="background-color: white; display: block;text-align: center;">
+    <img class="img-responsive" src="Logo.png" style="width: 30%;">
     </div>
     <div class="column8 right8" style="background-color: white; color: black;">
     <p class="p8">Tilt is a Brand and Communication consultancy<br>that offers ambitious brand owners, bespoke Strategy,<br>Creative, Content and Production services.<span style="color: #ffd933; font-style: bold;">/</span></p>
@@ -327,15 +348,15 @@
     <div class="column9 s9" style="background-color: #ffd933;color: black;">
         <br>
         <br>
-    <a id="a9" href="#offerings" style="text-decoration: none;">OUR OFFERINGS</a>
+    <a id="a9" href="https://tiltbrands.in/our-offerings-and-engagement-models/" style="text-decoration: none;">OUR OFFERINGS</a>
     <div class="line" style="margin-top: 2%; margin-bottom:2%"></div>
-    <a id="a9" href="#approach" style="text-decoration: none;">OUR APPROACH</a>
+    <a id="a9" href="https://tiltbrands.in/our-approach/" style="text-decoration: none;">OUR APPROACH</a>
     <div class="line" style="margin-top: 2%; margin-bottom:2%"></div>
-    <a id="a9" href="#work" style="text-decoration: none;">OUR WORK</a>
+    <a id="a9" href="https://tiltbrands.in/our-work/" style="text-decoration: none;">OUR WORK</a>
     <div class="line" style="margin-top: 2%; margin-bottom:2%"></div>
-    <a id="a9" href="#leadership" style="text-decoration: none;">OUR LEADERSHIP</a>
+    <a id="a9" href="https://tiltbrands.in/our-leadership/" style="text-decoration: none;">OUR LEADERSHIP</a>
     <div class="line" style="margin-top: 2%; margin-bottom:2%"></div>
-    <a id="a9" href="#connect" style="text-decoration: none;">CONNECT WITH US</a>
+    <a id="a9" href="https://tiltbrands.in/connect-with-us/" style="text-decoration: none;">CONNECT WITH US</a>
     
     </div>
 </div>
