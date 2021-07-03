@@ -24,7 +24,7 @@
   .column7{
     float: left;
     width: 25%;
-    height: 30%;
+    height: 37%;
     border: black solid 1px;
     overflow: hidden;
   }
@@ -75,8 +75,8 @@
      .right1, .right3, .right6 {
        width: 100%;
      }
-     .c1{
-      font-size: xx-small;
+     .c1, .c4, .c9{
+      font-size: large !important;
     }
  
  }
@@ -94,9 +94,9 @@
      .right1, .right3, .right6 {
        width: 100%;
      }
-     .c3{
-       font-size: 30px;
-     }
+     .c1, .c4, .c9{
+      font-size: large !important;
+    }
  }
  
  /* ipad portrait ----------- */
@@ -113,9 +113,9 @@
      .right1, .right3, .right6 {
        width: 100%;
      }
-     .c1{
-       font-size: large;
-     }
+     .c1, .c4, .c9{
+      font-size: large !important;
+    }
  }
  /* ipad landscape ----------- */
  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)  {
@@ -131,8 +131,8 @@
      .right1, .right3, .right6 {
        width: 50%;
      }
-     .c1{
-      font-size: x-large;
+     .c1, .c4, .c9{
+      font-size: x-large !important;
     }
  
  }
@@ -150,8 +150,8 @@
      .right1, .right3, .right6 {
        width: 100%;
      }
-     .c1{
-      font-size: x-large;
+     .c1, .c4, .c9{
+      font-size: x-large !important;
     }
  }
  
@@ -169,8 +169,8 @@
      .right1, .right3, .right6 {
        width: 50%;
      }
-     .c1{
-       font-size: x-large;
+     .c1, .c4, .c9{
+       font-size: xx-large !important;
      }
    
  }
@@ -188,6 +188,9 @@
      .right1, .right3, .right6 {
        width: 50%;
      }
+     .c1, .c4, .c9{
+       font-size: xx-large !important;
+     }
    
  }
  /* 27 inch iMac ----------- */
@@ -204,7 +207,9 @@
      .right1, .right3, .right6 {
        width: 50%;
      }
-   
+   .c1, .c4, .c9{
+     font-size: xx-large !important;
+   }
  }
  
 
@@ -215,7 +220,7 @@
   }
 
   .c1{
-    background-color: #ffd933;
+    background-color: #FFDD00;
     color: black;
     font-family: 'Heading Pro Double Trial';
     padding: 5%;
@@ -229,14 +234,14 @@
   }
   
   .c3{
-    background-color: #ffd933;
+    background-color: #FFDD00;
     color: black;
     font-family: 'Heading Pro Double Trial';
     line-height: 0.8;  
     padding: 5%;
   }
   .f3{
-    -webkit-text-fill-color: #ffd933; /* Will override color (regardless of order) */
+    -webkit-text-fill-color: #FFDD00; /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
   }
@@ -253,12 +258,17 @@
   }
 
   .c4{
-    background-color: black ;
-    color: #ffd933;
-    font-family: 'Heading Pro Double Trial';  
-    
-    overflow: hidden;
 
+   
+   
+    font-family: 'Heading Pro Double Trial';
+    line-height: 0.8;  
+    padding: 5%;
+    font-size: xx-large;
+    background-color: black ;
+    color: #FFDD00;
+    font-family: 'Heading Pro Double Trial';  
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     /* align-items: center; */
@@ -267,15 +277,16 @@
 
   .c6{
     background-color: black ;
-    color: #ffd933;
+    color: #FFDD00;
     font-family: 'Heading Pro Double Trial';  
     padding: 5%;
     overflow: hidden;
+    font-size: xx-large;
   }
 
 .c9{
   background-color: #343536;
-  color: #ffd933;
+  color: #FFDD00;
   font-family: 'Heading Pro Double Trial'; 
   padding: 5%;
 
@@ -324,7 +335,7 @@
 	}
 
   .circle:hover{
-    background: #ffd933;
+    background: #FFDD00;
     color: black;
   }
 
@@ -461,12 +472,15 @@
   
     .column10 {
       float: left;
-      width: 25%;
-      padding: 10px;
-      height: 40%; 
+      width: 25% !important;
+      padding: 5px;
+      height: auto; 
+
+     
       
     }
 
+   
 
 
 .column1 span{
@@ -517,7 +531,7 @@
     justify-content: center;
 }
 .top1 a:hover{
-  color: #ffd933;
+  color: #FFDD00;
 }
 .bg {
  

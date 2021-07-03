@@ -96,7 +96,7 @@
   }
 
   .c1{
-    background-color: #ffd933;
+    background-color: #FFDD00;
     color: black;
     font-family: 'Heading Pro Double Trial';
     padding: 5%;
@@ -105,14 +105,14 @@
   }
   
   .c3{
-    background-color: #ffd933;
+    background-color: #FFDD00;
     color: black;
     font-family: 'Heading Pro Double Trial';
     line-height: 0.8;  
     padding: 5%;
   }
   .f3{
-    -webkit-text-fill-color: #ffd933; /* Will override color (regardless of order) */
+    -webkit-text-fill-color: #FFDD00; /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
   }
@@ -130,21 +130,21 @@
 
   .c4{
     background-color: black ;
-    color: #ffd933;
+    color: #FFDD00;
     font-family: 'Heading Pro Double Trial';  
     padding-top: 5%;
   }
 
   .c6{
     background-color: black ;
-    color: #ffd933;
+    color: #FFDD00;
     font-family: 'Heading Pro Double Trial';  
     padding: 5%;
   }
 
 .c9{
   background-color: #343536;
-  color: #ffd933;
+  color: #FFDD00;
   font-family: 'Heading Pro Double Trial'; 
   padding: 5%;
 }
